@@ -33,3 +33,6 @@ domain
 
 2.搭建环境
 Eclipse + MySQL
+
+3.展示
+![Image text](https://github.com/Jaquior-qiao/ManagementProject/edit/master/PictureShow/1.png)
