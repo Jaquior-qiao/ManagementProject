@@ -35,4 +35,4 @@ domain
 Eclipse + MySQL
 
 3.展示
-![Image text](https://github.com/Jaquior-qiao/ManagementProject/edit/master/PictureShow/1.PNG)
+![Image text](https://github.com/Jaquior-qiao/ManagementProject/blob/master/PictureShow/1.PNG)
