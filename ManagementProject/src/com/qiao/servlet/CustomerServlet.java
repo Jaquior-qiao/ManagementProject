@@ -2,6 +2,10 @@ package com.qiao.servlet;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 import com.qiao.domain.Customer;
 import com.qiao.domain.PageBean;
 import com.qiao.service.CustomerService;
@@ -12,7 +16,7 @@ import cn.itcast.servlet.BaseServlet;
 /**
  * Created by codingBoy on 16/10/23.
  */
-public class CustomerServlet extends BaseServlet {
+public class CustomerServlet extends BaseServlet{
 
     private CustomerService customerService = new CustomerService();
 
@@ -27,14 +31,6 @@ public class CustomerServlet extends BaseServlet {
 
         return "/msg.jsp";
     }
-
-//    public String findAll(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//        List<Customer> customers = customerService.findAll();
-//
-//        request.setAttribute("cstmList", customers);
-//
-//        return "/list.jsp";
-//    }
 
     public String findAll(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
        /*
@@ -98,23 +94,10 @@ public class CustomerServlet extends BaseServlet {
         return "/msg.jsp";
     }
 
-//    public String query(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//
-//        Customer customer=CommonUtils.toBean(request.getParameterMap(),Customer.class);
-//
-//        List<Customer> customers=customerService.query(customer);
-//
-//        request.setAttribute("cstmList",customers);
-//
-//        return "/list.jsp";
-//
-//    }
-
     public String query(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         Customer customer = CommonUtils.toBean(request.getParameterMap(), Customer.class);
 
-//        System.out.println(getUrl(request));
         customer = encoding(customer);
 
         int pc = getPc(request);
