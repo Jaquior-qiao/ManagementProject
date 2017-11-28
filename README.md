@@ -40,3 +40,4 @@ Eclipse + MySQL
 ![搜索页面](https://github.com/Jaquior-qiao/ManagementProject/blob/master/PictureShow/3.PNG)
 ![高级搜索页面](https://github.com/Jaquior-qiao/ManagementProject/blob/master/PictureShow/4.PNG)
 
+有点bug，擦入的图片显示不出来。
