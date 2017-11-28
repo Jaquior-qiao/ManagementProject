@@ -35,4 +35,8 @@ domain
 Eclipse + MySQL
 
 3.展示
-![Image text](https://github.com/Jaquior-qiao/ManagementProject/blob/master/PictureShow/1.PNG)
+![index页面](https://github.com/Jaquior-qiao/ManagementProject/blob/master/PictureShow/1.PNG)
+![客户列表页面](https://github.com/Jaquior-qiao/ManagementProject/blob/master/PictureShow/2.PNG)
+![搜索页面](https://github.com/Jaquior-qiao/ManagementProject/blob/master/PictureShow/3.PNG)
+![高级搜索页面](https://github.com/Jaquior-qiao/ManagementProject/blob/master/PictureShow/4.PNG)
+
